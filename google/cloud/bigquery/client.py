@@ -2632,7 +2632,7 @@ class Client(ClientWithProject):
             self._http, data, metadata, _GENERIC_CONTENT_TYPE, timeout=timeout
         )
 
-        return response            
+        return response
 
     def copy_table(
         self,
